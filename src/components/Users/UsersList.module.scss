@@ -1,0 +1,17 @@
+.list {
+  list-style-type: none;
+  li {
+    padding: 10px 0;
+    border-bottom: 1px solid #6c6c6c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
+
+.listCard {
+  padding: 5px 16px;
+}

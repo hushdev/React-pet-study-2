@@ -1,0 +1,59 @@
+body {
+  background: rgb(29, 29, 29);
+}
+
+.bg-dark {
+  background: #2d2d2d;
+}
+
+.bg-light {
+  background: #4e4d4d;
+}
+
+.box {
+  box-shadow: 0 0 5px #6e6e6e;
+  border: 0;
+  border-radius: 15px;
+}
+
+.container {
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.h1 {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.h2 {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.m-1 {
+  margin: 10px 15px;
+}
+
+.m-2 {
+  margin: 15px 20px;
+}
+
+.p-1 {
+  padding: 10px 15px;
+}
+
+.p-2 {
+  padding: 15px 20px;
+}
