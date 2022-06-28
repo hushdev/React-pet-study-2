@@ -4,7 +4,7 @@ import Button from "../UI/Button";
 import Card from "./Card";
 
 const ErrorModal = (props) => {
-  useEffect((props) => {
+  useEffect(() => {
     // Closing modal by ESC or ENTER
     const close = (e) => {
       if (e.keyCode === 27 || e.keyCode === 13) {
@@ -13,7 +13,7 @@ const ErrorModal = (props) => {
     };
     window.addEventListener("keydown", close);
     return () => window.removeEventListener("keydown", close);
-  }, []);
+  }, [props]);
 
   return (
     <>
